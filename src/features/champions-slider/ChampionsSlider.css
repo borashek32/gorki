@@ -22,7 +22,6 @@
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  width: 260px !important;
   gap: 5px !important;
 }
 
@@ -45,7 +44,6 @@
 .slick-slide {
   display: flex !important;
   justify-content: center !important;
-  width: 400px !important;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -61,10 +59,10 @@
 }
 
 @media (max-width: 720px) {
-  .slick-slide {
-    width: 100% !important;
+  .slickWrapper {
+    padding: 0 10px 50px 10px;
   }
-  
+
   .slide {
     padding: 5px;
   }
