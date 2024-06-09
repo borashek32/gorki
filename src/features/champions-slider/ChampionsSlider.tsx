@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick-theme.css"
 
 export const ChampionsSlider = () => {
   const settings = {
+    arrows: false,
     lazyload: true,
     dots: true,
     infinite: false,
@@ -35,7 +36,7 @@ export const ChampionsSlider = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: false,
-          dots: true
+          dots: true,
         }
       },
     ]
