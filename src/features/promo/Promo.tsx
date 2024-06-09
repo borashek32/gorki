@@ -10,7 +10,7 @@ export const Promo = () => {
         <div className={styles.promoHeaderWrapper}>
           <div className={styles.promoHeader}>
             <h1>Детский спортивный клуб единоборств <span>"Горки"</span></h1>
-            <p>детский спортивный клуб удиноборств: самбо, боевое самбо, бокс, кикбокс</p>
+            <p>детский спортивный клуб единоборств: самбо, боевое самбо</p>
             <a href="tel:+79169174630">
               <Button
                 size='sm'
