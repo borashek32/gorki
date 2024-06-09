@@ -1,0 +1,40 @@
+header {
+  background-color: var(--bg-primary-color);
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+}
+
+.headerTopWrapper {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.headerTopWrapper a {
+  text-transform: uppercase;
+  color: var(--text-primary-color);
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 114px;
+  padding: 0 var(--padding-sides);
+  box-shadow: var(--shadow-color);
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menuItem {
+  cursor: pointer;
+}

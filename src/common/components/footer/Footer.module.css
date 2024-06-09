@@ -1,0 +1,66 @@
+.footerWrapperImg {
+  background-image: url('./../../assets/img/footer.jpeg');
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.footerWrapper {
+  background-color: var(--primary-opacity-color);
+}
+
+.footerContainer {
+  padding: var(--padding-top-bottom) var(--padding-sides);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  align-items: center;
+}
+
+.contactsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contactsItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contactsItem p {
+  color: var(--text-primary-color)
+}
+
+.footer {
+  padding: 50px;
+  border-top: 1px solid var(--text-primary-color);
+}
+
+.footer p {
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.imgWrapper{
+  background-color: var(--secondary-color);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

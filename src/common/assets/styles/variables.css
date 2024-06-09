@@ -1,0 +1,31 @@
+body {
+  --primary-color: #073F78;
+  --primary-opacity-color: rgba(7, 64, 120, 0.872);
+  --secondary-color: #0DB0F3;
+  --secondary-hover-color: #2a86aa;
+  --secondary-active-color: #1d5c75;
+  --bg-primary-color: #F9FDFF;
+  --text-primary-color: #FFFFFF;
+  --text-secondary-color: #000000;
+  --text-secondary-hover-color: #2c2b2b;
+}
+
+body.dark {
+  --primary-color: #141414;
+  --primary-opacity-color: rgba(28, 32, 36, 0.868);
+  --secondary-color: #3f3f3f;
+  --secondary-hover-color: #2b2727;
+  --secondary-hover-color: #1c1c1c;
+  --bg-primary-color: #F9FDFF;
+  --text-primary-color: #FFFFFF;
+  --text-secondary-color: #000000;
+}
+
+:root {
+  --padding-sides: 125px;
+  --padding-top-bottom: 100px;
+
+  --shadow-color: 0 0 10px hsla(0, 0%, 0%, 0.234);
+
+  --transition-variable: all .3s linear
+}

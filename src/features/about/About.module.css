@@ -1,0 +1,24 @@
+.about {
+  background-color: var(--bg-primary-color);
+  display: flex;
+  gap:  70px;
+  align-items: center;
+  padding: 50px var(--padding-sides) var(--padding-top-bottom) var(--padding-sides);
+}
+
+.videoWrapper video {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.desc p {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-color);
+}

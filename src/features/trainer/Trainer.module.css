@@ -1,0 +1,18 @@
+.trainer {
+  background-color: var(--bg-primary-color);
+  display: flex;
+  gap:  70px;
+  align-items: flex-start;
+  padding: 50px var(--padding-sides) var(--padding-top-bottom) var(--padding-sides);
+}
+
+.imgWrapper img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
