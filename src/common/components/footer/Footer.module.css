@@ -64,3 +64,26 @@
   justify-content: center;
   align-items: center;
 }
+
+.map {
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 1439px) {
+  .footerContainer {
+    padding: 50px;
+  }
+
+  .map {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .map {
+    width: 300px;
+    height: 200px;
+  }
+}

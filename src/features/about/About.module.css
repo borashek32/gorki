@@ -22,3 +22,29 @@
   line-height: 24px;
   color: var(--primary-color);
 }
+
+@media (max-width: 1439px) {
+  .about {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .desc {
+    align-items: center;
+  }
+
+  .desc p {
+    text-align: center;
+  }
+
+  .videoWrapper video {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .videoWrapper video {
+    height: 160px;
+  }
+}

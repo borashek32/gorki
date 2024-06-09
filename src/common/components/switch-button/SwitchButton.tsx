@@ -1,5 +1,7 @@
 import { ChangeEvent } from 'react'
 import styles from './SwitchButton.module.css'
+import sun from './../../assets/img/icons/sun.svg'
+import moon from './../../assets/img/icons/moon.svg'
 
 type Props = {
   onClick: (value: string) => void
@@ -17,10 +19,6 @@ export const SwitchButton = ({
 
   return (
     <div className={styles.switchWrapper}>
-      <p>{value === 'light'
-        ? 'на темную сторону'
-        : 'на светлую сторону'
-      }</p>
       <label className={styles.switch}>
         <input 
           onChange={callback}
@@ -28,7 +26,10 @@ export const SwitchButton = ({
           type="checkbox"
           checked={value === 'light'}
         />
-        <span className={styles.slider + ' ' + styles.round}></span>
+        <span className={styles.slider + ' ' + styles.round}>
+          <img src={sun} alt="sun" width={20} className={styles.switchImgSun} />
+          <img src={moon} alt="moon" width={20} className={styles.switchImgMoon} />
+        </span>
       </label>
     </div>
   )

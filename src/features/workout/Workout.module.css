@@ -7,7 +7,7 @@
 }
 
 .listItemsHeader {
-  width: 600px;
+  
 }
 
 .listItemsSubHeader {
@@ -49,4 +49,22 @@
   font-size: 16px;
   line-height: 24px;
   color: var(--primary-color);
+}
+
+@media (max-width: 1439px) {
+  .listItemsWrapper {
+    padding: 50px;
+  }
+
+  .listItemsSubHeader {
+    width: 100%;
+  }
+
+  .listWrapper {
+    flex-direction: column;
+  }
+
+  .imgWrapper img {
+    width: 200px;
+  }
 }

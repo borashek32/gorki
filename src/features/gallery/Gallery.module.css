@@ -53,3 +53,21 @@
   font-weight: 500;
   font-size: 20px;
 }
+
+@media (max-width: 1439px) {
+  .galleryGridItem {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .galleryGridItem {
+    width: 40%;
+  }
+}
+
+@media (max-width: 640px) {
+  .galleryGridItem {
+    width: 50%;
+  }
+}

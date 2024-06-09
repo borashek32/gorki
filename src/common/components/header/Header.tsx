@@ -7,9 +7,8 @@ import { Logo } from '../logo/Logo'
 
 export const Header = () => {
   const [active, setActive] = useState(false)
-  const { theme, setTheme } = useTheme()
-  console.log(active);
   
+  const { theme, setTheme } = useTheme()
 
   const changeTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')
@@ -22,12 +21,16 @@ export const Header = () => {
   return (
     <header>
       <div className={styles.headerTopWrapper}>
-        <a href="tel:+79169174630">клуб "горки": +7 (916) 917-46-30</a>
+        <a href="tel:+79169174630"><span>клуб "горки":</span> +7 (916) 917-46-30</a>
+        <SwitchButton 
+          onClick={changeTheme} 
+          value={theme}
+        />
       </div>
 
       <div className={styles.headerWrapper}>
         <Logo />
-        <nav>
+        <nav className={active ? styles.nav : ''}>
           <ul className={styles.menu}>
             <li className={styles.menuItem}>
               <Link 
@@ -122,10 +125,9 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
-        <SwitchButton 
-          onClick={changeTheme} 
-          value={theme}
-        />
+        <div className={styles.burger + ' ' + (active ? styles.active : '')} onClick={() => setActive(!active)}>
+          <span className={styles.burgerLine}></span>
+        </div>
       </div>
     </header>
   )

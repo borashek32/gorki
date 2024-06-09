@@ -1,17 +1,18 @@
 header {
   background-color: var(--bg-primary-color);
   position: fixed;
-  z-index: 100;
+  z-index: 100000;
   width: 100vw;
 }
 
 .headerTopWrapper {
-  width: 100%;
+  /* width: 100%; */
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
+  padding: 0 var(--padding-sides);
 }
 
 .headerTopWrapper a {
@@ -37,4 +38,100 @@ header {
 
 .menuItem {
   cursor: pointer;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 99;
+}
+
+.burgerLine {
+  width: 30px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.burgerLine,
+.burgerLine::before,
+.burgerLine::after {
+  width: 40px;
+  height: 2px;
+  top: 10px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: var(--transition-variable);
+}
+
+.burgerLine::before,
+.burgerLine::after {
+  content: '';
+  position: absolute;
+}
+
+.burgerLine::before {
+  top: 20px;
+}
+
+.burgerLine::after {
+  top: 10px;
+}
+
+.burger.active .burgerLine::before {
+  transform: rotate(-90deg);
+  top: 1px;
+}
+
+.burger.active .burgerLine {
+  transform: rotate(45deg);
+}
+
+.burger.active .burgerLine::after {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .headerTopWrapper a span {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    top: -100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    top: 164px;
+    left: 0;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    transition: var(--transition-variable);
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .menu {
+    flex-direction: column;
+    color: var(--text-primary-color);
+    align-items: center;
+  }
+
+  .headerWrapper {
+    padding: 0 50px;
+  }
+
+  .headerTopWrapper {
+    padding: 0 50px;
+  }
 }

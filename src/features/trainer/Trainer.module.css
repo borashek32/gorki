@@ -16,3 +16,15 @@
   flex-direction: column;
   gap: 30px;
 }
+
+@media (max-width: 1439px) {
+  .trainer {
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .desc {
+    text-align: center;
+  }
+}
