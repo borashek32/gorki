@@ -64,4 +64,8 @@
   .slick-slide {
     width: 100% !important;
   }
+  
+  .slide {
+    padding: 5px;
+  }
 }
