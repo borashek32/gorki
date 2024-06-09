@@ -138,6 +138,6 @@ header {
 
 @media (max-width: 600px) {
   .headerTopWrapper {
-    padding: 0 50px;
+    padding: 0 10px;
   }
 }
