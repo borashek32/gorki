@@ -1,13 +1,13 @@
-import { useContext, useState } from 'react'
+import { useState } from 'react'
 import styles from './Header.module.css'
-import { ThemeContext } from '../../providers/theme/ThemeProvider'
+import { useTheme } from '../../providers/theme/ThemeProvider'
 import { SwitchButton } from '../switch-button/SwitchButton'
 import { Link } from 'react-scroll'
 import { Logo } from '../logo/Logo'
 
 export const Header = () => {
   const [active, setActive] = useState(false)
-  const [theme, setTheme] = useContext(ThemeContext)
+  const { theme, setTheme } = useTheme()
   console.log(active);
   
 

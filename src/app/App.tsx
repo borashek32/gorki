@@ -9,9 +9,8 @@ import { Workout } from '../features/workout/Workout'
 import { Trainer } from '../features/trainer/Trainer'
 import { ThemeProvider } from '../common/providers/theme/ThemeProvider'
 
-
 function App() {
-
+  
   return (
     <ThemeProvider>
       <div className={'wrapper'}>

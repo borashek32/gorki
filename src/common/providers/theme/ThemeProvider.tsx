@@ -1,16 +1,31 @@
-import { ReactElement, createContext, useEffect } from "react"
-import { useLocalStarage } from "../../hooks/useLocalStorage"
+import { ReactNode, createContext, useContext, useEffect, useState } from "react"
+// import { useLocalStarage } from "../../hooks/useLocalStorage"
+export interface IThemeContext {
+  theme: string
+  setTheme: (theme: string) => void
+}
 
-export const ThemeContext = createContext<string>('light')
+const ThemeContext = createContext<IThemeContext | undefined>(undefined)
+
+export const useTheme = () => {
+  const context = useContext(ThemeContext)
+
+  if (!context) {
+    throw new Error('no context')
+  }
+
+  return context
+}
 
 type Props = {
-  children: ReactElement | ReactElement[]
+  children: ReactNode
 }
 
 export const ThemeProvider = ({ 
   children 
 }: Props) => {
-  const [theme, setTheme] = useLocalStarage('theme', 'light')
+  // const [theme, setTheme] = useLocalStarage('theme', 'light')
+  const [theme, setTheme] = useState('light')
   
   useEffect(() => {
     if (theme === 'light') {
@@ -21,7 +36,7 @@ export const ThemeProvider = ({
   }, [theme])
 
   return (
-    <ThemeContext.Provider value={[theme, setTheme]}>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   )
