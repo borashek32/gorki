@@ -45,7 +45,7 @@
 .slick-slide {
   display: flex !important;
   justify-content: center !important;
-  width: 500px !important;
+  width: 400px !important;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -57,5 +57,11 @@
 
   .slickWrapper {
     padding: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slide {
+    width: 240px !important;
   }
 }
