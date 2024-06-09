@@ -8,6 +8,8 @@ import { Logo } from '../logo/Logo'
 export const Header = () => {
   const [active, setActive] = useState(false)
   const [theme, setTheme] = useContext(ThemeContext)
+  console.log(active);
+  
 
   const changeTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')

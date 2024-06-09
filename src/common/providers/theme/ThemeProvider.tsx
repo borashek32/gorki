@@ -1,7 +1,7 @@
 import { ReactElement, createContext, useEffect } from "react"
 import { useLocalStarage } from "../../hooks/useLocalStorage"
 
-export const ThemeContext = createContext()
+export const ThemeContext = createContext<string>('light')
 
 type Props = {
   children: ReactElement | ReactElement[]
