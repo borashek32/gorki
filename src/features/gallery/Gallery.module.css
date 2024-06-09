@@ -55,6 +55,10 @@
 }
 
 @media (max-width: 1439px) {
+  .gallery {
+    padding: 50px;
+  }
+
   .galleryGridItem {
     width: 30%;
   }
@@ -66,8 +70,8 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .galleryGridItem {
-    width: 50%;
+    width: 100%;
   }
 }

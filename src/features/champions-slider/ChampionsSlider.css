@@ -22,7 +22,7 @@
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  width: 300px !important;
+  width: 260px !important;
   gap: 5px !important;
 }
 
@@ -46,4 +46,16 @@
   display: flex !important;
   justify-content: center !important;
   width: 500px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 1439px) {
+  .sliderWrapper {
+    padding: 50px;
+  }
+
+  .slickWrapper {
+    padding: 50px;
+  }
 }

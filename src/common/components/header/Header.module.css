@@ -135,3 +135,9 @@ header {
     padding: 0 50px;
   }
 }
+
+@media (max-width: 600px) {
+  .headerTopWrapper {
+    padding: 0 50px;
+  }
+}
