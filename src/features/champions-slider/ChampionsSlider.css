@@ -60,8 +60,8 @@
   }
 }
 
-@media (max-width: 600px) {
-  .slide {
-    width: 240px !important;
+@media (max-width: 720px) {
+  .slick-slide {
+    width: 100% !important;
   }
 }
