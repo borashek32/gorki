@@ -14,6 +14,7 @@ export const Footer = () => {
         <div className={styles.footerContainer}>
           <div className={styles.mapWrapper}>
             <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9766.904825708481!2d36.96060204082207!3d55.21082034392453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aacb1d26fc219%3A0x57abaa0fec868038!2z0JPQvtGA0LrQuA!5e0!3m2!1sru!2sru!4v1717941735819!5m2!1sru!2sru" loading="lazy"></iframe>
+            <p>При движении из Москвы поворачиваете на право перед заправкой GP, далее едете прямо примерно 200 метов до въезда на территорию бывшего детского лагеря "Горки". Едете прямо по территории лагеря до парковки.</p>
           </div>
           <div className={styles.contactsSection}>
             <Logo />
@@ -24,14 +25,14 @@ export const Footer = () => {
               </li>
               <li className={styles.contactsItem}>
                 <img src={phone} alt="phone" />
-                <a href="tel:+79169174630">
-                  <p>+7 (916) 917-46-30</p>
+                <a href="tel:+79855727516">
+                  <p>+7 (985) 572-75-16</p>
                 </a>
               </li>
               <li className={styles.contactsItem}>
                 <img src={letter} alt="mail" />
                 <a href="mailto:borashek@inbox.ru">
-                  <p>borashek@inbox.ru</p>
+                  <p>info@dsk-gorki.com</p>
                 </a>
               </li>
             </ul>

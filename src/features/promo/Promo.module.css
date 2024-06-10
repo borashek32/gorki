@@ -44,15 +44,15 @@
 }
 
 .promoHeader p {
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--text-secondary-color)
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--primary-color)
 }
 
 .promoImgWrapper {
   position: relative;
   height: 580px;
-  width: 600px;
+  width: 599px;
 }
 
 .promoImgWrapper img {
@@ -87,7 +87,7 @@
 
 @media (max-width: 1439px) {
   .promoHeader h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
   }
 
   .promoHeader p {
@@ -132,6 +132,6 @@
 
 @media (max-width: 600px) {
   .promoHeader h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }

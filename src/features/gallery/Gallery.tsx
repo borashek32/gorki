@@ -15,34 +15,6 @@ export const Gallery = () => {
           </div>
         </div>
         <div className={styles.galleryGridItem}>
-          <img src={ch1} alt="album" /> 
-          <div className={styles.galleryItemDesc}>
-            <h6>Чемпионат г.Москвы</h6>
-            <p>12.09.2024</p>
-          </div>
-        </div>
-        <div className={styles.galleryGridItem}>
-          <img src={ch1} alt="album" />
-          <div className={styles.galleryItemDesc}>
-            <h6>Чемпионат г.Москвы</h6>
-            <p>12.09.2024</p>
-          </div>
-        </div>
-        <div className={styles.galleryGridItem}>
-          <img src={ch1} alt="album" />
-          <div className={styles.galleryItemDesc}>
-            <h6>Чемпионат г.Москвы</h6>
-            <p>12.09.2024</p>
-          </div>
-        </div>
-        <div className={styles.galleryGridItem}>
-          <img src={ch1} alt="album" />
-          <div className={styles.galleryItemDesc}>
-            <h6>Чемпионат г.Москвы</h6>
-            <p>12.09.2024</p>
-          </div>
-        </div>
-        <div className={styles.galleryGridItem}>
           <img src={ch1} alt="album" />
           <div className={styles.galleryItemDesc}>
             <h6>Чемпионат г.Москвы</h6>

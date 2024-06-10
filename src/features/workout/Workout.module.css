@@ -62,6 +62,7 @@
 
   .listWrapper {
     flex-direction: column;
+    gap: 20px;
   }
 
   .imgWrapper img {

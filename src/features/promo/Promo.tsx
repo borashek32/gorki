@@ -9,9 +9,9 @@ export const Promo = () => {
       <div className={styles.promoWrapper}>
         <div className={styles.promoHeaderWrapper}>
           <div className={styles.promoHeader}>
-            <h1>Детский спортивный клуб единоборств <span>"Горки"</span></h1>
-            <p>детский спортивный клуб единоборств: самбо, боевое самбо</p>
-            <a href="tel:+79169174630">
+            <h1>Детский спортивный клуб<span>"Горки"</span></h1>
+            <p>Боевое самбо - дисциплина, спорт, борьба.</p>
+            <a href="tel:+79855727516">
               <Button
                 size='sm'
                 color='blue'
