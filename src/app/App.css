@@ -8,12 +8,6 @@
   font-style: normal;
 }
 
-.wrapper {
-  background-color: var(--bd-primary-color);
-  display: flex;
-  flex-direction: column;
-}
-
 header {
   height: 164px;
 }

@@ -1,5 +1,5 @@
 import styles from './Gallery.module.css'
-import ch1 from './../../common/assets/img/champions/ch1.jpg'
+import ch1 from './../../../common/assets/img/champions/ch1.jpg'
 
 export const Gallery = () => {
 

@@ -1,3 +1,7 @@
+.logoWrapper {
+  cursor: pointer;
+}
+
 .logoWrapper img {
   width: 110px;
 }

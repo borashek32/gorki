@@ -1,6 +1,6 @@
 import styles from './Promo.module.css'
-import promo from './../../common/assets/img/promo.jpg'
-import { Button } from '../../common/components/button/Button'
+import promo from './../../assets/img/promo.jpg'
+import { Button } from '../button/Button'
 
 export const Promo = () => {
 
@@ -9,7 +9,7 @@ export const Promo = () => {
       <div className={styles.promoWrapper}>
         <div className={styles.promoHeaderWrapper}>
           <div className={styles.promoHeader}>
-            <h1>Детский спортивный клуб<span>"Горки"</span></h1>
+            <h1>Детский спортивный клуб <span>"Горки"</span></h1>
             <p>Боевое самбо - дисциплина, спорт, борьба.</p>
             <a href="tel:+79855727516">
               <Button

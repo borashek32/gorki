@@ -35,27 +35,35 @@
   align-items: center;
 }
 
+.contactsItem img {
+  width: 40px;
+}
+
 .contactsItem p {
+  font-size: 18px;
   color: var(--text-primary-color)
 }
 
 .footer {
   padding: 50px;
   border-top: 1px solid var(--text-primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .footer p {
-  text-align: center;
   color: var(--text-primary-color);
 }
 
 .social {
-  width: 150px;
+  width: 300px;
   display: flex;
   gap: 20px;
 }
 
-.imgWrapper{
+.imgWrapper {
   background-color: var(--secondary-color);
   width: 36px;
   height: 36px;
@@ -65,8 +73,8 @@
   align-items: center;
 }
 
-.imgWrapper {
-  width: 600px;
+.imgWrapper img {
+  width: 26px;
 }
 
 .mapWrapper p {

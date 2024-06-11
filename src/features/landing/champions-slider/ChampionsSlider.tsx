@@ -1,12 +1,12 @@
 import './ChampionsSlider.css'
-import ch1 from './../../common/assets/img/champions/ch1.jpg'
-import ch2 from './../../common/assets/img/champions/ch2.jpg'
-import ch3 from './../../common/assets/img/champions/ch3.jpg'
-import ch4 from './../../common/assets/img/champions/ch4.jpg'
-import ch5 from './../../common/assets/img/champions/ch5.jpg'
-import ch6 from './../../common/assets/img/champions/ch6.jpg'
-import ch7 from './../../common/assets/img/champions/ch7.jpg'
-import ch8 from './../../common/assets/img/champions/ch8.jpg'
+import ch1 from './../../../common/assets/img/champions/ch1.jpg'
+import ch2 from './../../../common/assets/img/champions/ch2.jpg'
+import ch3 from './../../../common/assets/img/champions/ch3.jpg'
+import ch4 from './../../../common/assets/img/champions/ch4.jpg'
+import ch5 from './../../../common/assets/img/champions/ch5.jpg'
+import ch6 from './../../../common/assets/img/champions/ch6.jpg'
+import ch7 from './../../../common/assets/img/champions/ch7.jpg'
+import ch8 from './../../../common/assets/img/champions/ch8.jpg'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"

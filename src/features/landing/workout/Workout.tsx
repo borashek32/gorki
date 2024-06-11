@@ -1,6 +1,6 @@
 import styles from './Workout.module.css'
-import workout from './../../common/assets/img/sambo.png'
-import ok from './../../common/assets/img/icons/ok.svg'
+import workout from './../../../common/assets/img/sambo.png'
+import ok from './../../../common/assets/img/icons/ok.svg'
 
 export const Workout = () => {
 

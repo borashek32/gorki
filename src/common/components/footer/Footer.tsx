@@ -1,10 +1,13 @@
 import styles from './Footer.module.css'
-import phone from './../../assets/img/icons/phone.png'
-import letter from './../../assets/img/icons/letter.png'
-import fb from './../../assets/img/icons/fb.svg'
-import tw from './../../assets/img/icons/twitter.png'
-import youtube from './../../assets/img/icons/youtube.png'
+import phone from './../../assets/img/icons/call.svg'
+import letter from './../../assets/img/icons/mail.svg'
+import address from './../../assets/img/icons/map.svg'
+import vk from './../../assets/img/icons/vk.svg'
+import ig from './../../assets/img/icons/ig.svg'
+import tiktok from './../../assets/img/icons/tiktok.svg'
+import youtube from './../../assets/img/icons/youtube.svg'
 import { Logo } from '../logo/Logo'
+import webDesign from './../../assets/img/logo.jpg'
 
 export const Footer = () => {
 
@@ -20,7 +23,7 @@ export const Footer = () => {
             <Logo />
             <ul className={styles.contactsList}>
               <li className={styles.contactsItem}>
-                <img src={phone} alt="address" />
+                <img src={address} alt="address" />
                 <p>62 км от МКАД по, А-130, Каменка, Москва, 108835</p>
               </li>
               <li className={styles.contactsItem}>
@@ -37,20 +40,27 @@ export const Footer = () => {
               </li>
             </ul>
             <div className={styles.social}>
-              <a href='#' className={styles.imgWrapper}>
-                <img src={fb} alt="facebook" />
+              <a href='https://vk.com/klubgorki' className={styles.imgWrapper} target='_blank'>
+                <img src={vk} alt="vkontakte" />
               </a>
-              <a href='#' className={styles.imgWrapper}>
-                <img src={tw} alt="twitter" />
+              <a href='https://www.instagram.com/klub_gorki/' className={styles.imgWrapper} target='_blank'>
+                <img src={ig} alt="instagram" />
               </a>
-              <a href='https://www.youtube.com/@klubgorki' className={styles.imgWrapper}>
+              <a href='https://www.youtube.com/@klubgorki' className={styles.imgWrapper} target='_blank'>
                 <img src={youtube} alt="youtube" />
+              </a>
+              <a href='#' className={styles.imgWrapper} target='_blank'>
+                <img src={tiktok} alt="tiktok" />
               </a>
             </div>
           </div>
         </div>
         <div className={styles.footer}>
-          <p>Copyright 2024 . All rights reserved</p>
+          <img src={webDesign} alt="web design - new creation" width={60} />
+          <p>© All rights reserved</p>
+          <a href="https://borashek32.github.io/portfolio/" target='_blanc'>
+            <p>Web design new creation</p>
+          </a>
         </div>
       </div>
     </footer>

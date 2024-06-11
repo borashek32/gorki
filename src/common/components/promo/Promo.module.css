@@ -4,7 +4,7 @@
 }
 
 .promoWrapper {
-  height: 580px;
+  height: 480px;
   margin-top: 164px;
   display: flex;
   align-items: center;
@@ -14,18 +14,19 @@
 
 .promoHeaderWrapper {
   background: linear-gradient(90deg, var(--bg-primary-color) 0%, var(--secondary-color) 100%);
-  padding: 0  0  0 var(--padding-sides);
-  height: 580px;
+  padding: 0 0 0 var(--padding-sides);
+  height: 480px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .promoHeader {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 28px;
+  justify-content: flex-start;
+  gap: 26px;
+  padding: 50px;
 }
 
 .promoHeader a {
@@ -51,13 +52,13 @@
 
 .promoImgWrapper {
   position: relative;
-  height: 580px;
+  height: 480px;
   width: 599px;
 }
 
 .promoImgWrapper img {
   background-size: center;
-  height: 580px;
+  height: 480px;
   width: 600px;
   border: 0;
 }
@@ -67,7 +68,7 @@
   content: "";
   right: 0px;
   top: 0px;
-  height: 580px;
+  height: 480px;
   width: 600px;
   background: linear-gradient(to left, transparent, var(--secondary-color));
   pointer-events: none;
@@ -90,8 +91,8 @@
     /* font-size: 40px; */
   }
 
-  .promoHeader p {
-    
+  .promoHeader {
+    padding: 0;
   }
 
   .promoHeaderWrapper {
