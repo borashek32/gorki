@@ -1,4 +1,5 @@
 .gallery {
+  background-color: var(--bg-primary-color);
   padding: var(--padding-top-bottom) var(--padding-sides);
 }
 
@@ -28,6 +29,7 @@
   width: 20%;
   flex: 1 1 auto;
   position: relative;
+  cursor: pointer;
 }
 
 .galleryGridItem img {

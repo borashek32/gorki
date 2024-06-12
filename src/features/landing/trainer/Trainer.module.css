@@ -6,6 +6,10 @@
   padding: 50px var(--padding-sides) var(--padding-top-bottom) var(--padding-sides);
 }
 
+.trainerHeader {
+  background-color: var(--bg-primary-color);
+}
+
 .imgWrapper img {
   border-radius: 10px;
   height: 400px;

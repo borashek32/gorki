@@ -87,10 +87,6 @@
 }
 
 @media (max-width: 1439px) {
-  .promoHeader h1 {
-    /* font-size: 40px; */
-  }
-
   .promoHeader {
     padding: 0;
   }
@@ -115,8 +111,6 @@
 
   .promoImgWrapper img {
     width: 100%;
-    /* position: absolute;
-    z-index: 8; */
   }
 
   .promoHeaderWrapper {
@@ -134,5 +128,23 @@
 @media (max-width: 600px) {
   .promoHeader h1 {
     font-size: 40px;
+  }
+
+  .promoHeader p {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 450px) {
+  .promoHeader h1 {
+    font-size: 32px;
+  }
+
+  .promoHeader p {
+    font-size: 20px;
+  }
+
+  .promoHeader {
+    gap: 16px;
   }
 }

@@ -85,6 +85,7 @@
 .map {
   width: 600px;
   height: 400px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1439px) {

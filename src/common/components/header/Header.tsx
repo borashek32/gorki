@@ -38,6 +38,16 @@ export const Header = () => {
                 Домой
               </NavLink>
             }
+            {location.pathname.includes('/albums') && 
+              <NavLink to={'/'} style={{color: 'black'}}>
+                Домой
+              </NavLink>
+            }
+            {location.pathname === '/address' && 
+              <NavLink to={'/'} style={{color: 'black'}}>
+                Домой
+              </NavLink>
+            }
             {location.pathname === '/' &&
               <>
                 <li className={styles.menuItem}>
@@ -120,6 +130,9 @@ export const Header = () => {
                 </li>
                 <NavLink to={'/blog'} style={{color: 'black'}}>
                   Блог
+                </NavLink>
+                <NavLink to={'/address'} style={{color: 'black'}}>
+                  Схема проезда
                 </NavLink>
               </>
             }

@@ -5,7 +5,7 @@ export const Trainer = () => {
 
   return (
     <section id='trainer'>
-      <h2>Тренер Мухаммад Абдуллоев</h2>
+      <h2 className={styles.trainerHeader}>Тренер Мухаммад Абдуллоев</h2>
       <div className={styles.trainer}>
         <div className={styles.imgWrapper}>
           <img src={ch1} alt="trainer" />
