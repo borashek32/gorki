@@ -21,6 +21,12 @@
   gap: 30px;
 }
 
+.desc h3 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+
 @media (max-width: 1439px) {
   .trainer {
     padding: 50px;

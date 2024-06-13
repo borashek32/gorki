@@ -11,20 +11,14 @@ export const Trainer = () => {
           <img src={winner6} alt="trainer" />
         </div>
         <div className={styles.desc}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto adipisci assumenda ratione laudantium beatae cupiditate, vitae voluptates iure quos possimus. Repellendus dolore labore error nostrum eveniet non fuga, provident qui. Repudiandae ipsam obcaecati cum saepe deleniti ab corporis consequatur voluptate quis sapiente accusantium adipisci officiis delectus quaerat, fugiat, earum architecto dolor accusamus? Obcaecati suscipit aperiam beatae architecto quos molestiae...</p>
+          <p>Мастер спорта международного класса</p>
           <ul>
             <li>
-              <p>Победитель региональных соревнований по боевому самбо</p>
-              <p>12.03.2014</p>
+              <h3>1 место</h3>
+              <p>Чемпионат центрального федерального округа по профессиональному боевому самбо</p>
+              <p>2024 г.</p>
             </li>
-            <li>
-              <p>Победитель региональных соревнований по боевому самбо</p>
-              <p>12.03.2014</p>
-            </li>
-            <li>
-              <p>Победитель региональных соревнований по боевому самбо</p>
-              <p>12.03.2014</p>
-            </li>
+            
           </ul>
         </div>
       </div>
