@@ -4,8 +4,8 @@ import { useEffect } from 'react'
 import { getAlbums } from './gallery.slice'
 import { useAppSelector } from '../../../common/hooks/useAppSelector'
 import { selectAlbums } from './gallery.selectors'
-import { GalleryType } from './gallery.types'
-import { galleryApi } from '../../../common/api/api'
+import { GalleryAlbumType } from './gallery.types'
+import { appApi } from '../../../common/api/api'
 import { useNavigate } from 'react-router-dom'
 
 export const Gallery = () => {
@@ -20,7 +20,7 @@ export const Gallery = () => {
   }
   
   useEffect(() => {
-    galleryApi.getAlbums()
+    appApi.getAlbums()
       .then(albums => {
         dispatch(getAlbums(albums))
       })  
@@ -30,7 +30,7 @@ export const Gallery = () => {
     <section id='gallery' className={styles.gallery}>
       <h2 className={styles.galleryHeader}>Галерея</h2>
       <div className={styles.galleryGrid}>
-        {albums && albums.map((item: GalleryType) => {
+        {albums && albums.map((item: GalleryAlbumType) => {
           return (
             <div className={styles.galleryGridItem} key={item.id} onClick={() => getAlbum(item.id)}>
               <img src={item.cover} alt={item.title} />

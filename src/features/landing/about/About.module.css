@@ -80,7 +80,7 @@ th {
   }
 
   .aboutHeader {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 
   .desc {
@@ -105,6 +105,10 @@ th {
 @media (max-width: 600px) {
   .videoWrapper video {
     width: 380px;
+  }
+
+  .aboutHeader {
+    padding-bottom: 0;
   }
 }
 

@@ -8,6 +8,7 @@ body {
   --text-primary-color: #FFFFFF;
   --text-secondary-color: #000000;
   --text-secondary-hover-color: #2c2b2b;
+  --modal-bg-opacity: #020202de;
 }
 
 body.dark {

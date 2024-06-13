@@ -7,6 +7,25 @@
   margin-bottom: 50px;
 }
 
+.photosWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photoWrapper {
+
+}
+
+.photoWrapper img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  flex: 1 1 auto;
+  cursor: pointer;
+}
+
 @media (max-width: 1439px) {
   .album {
     padding: 0 50px var(--padding-top-bottom) 50px;

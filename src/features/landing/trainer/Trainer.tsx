@@ -1,5 +1,5 @@
 import styles from './Trainer.module.css'
-import ch1 from './../../../common/assets/img/champions/ch1.jpg'
+import winner6 from './../../../common/assets/img/winners/6.jpeg'
 
 export const Trainer = () => {
 
@@ -8,7 +8,7 @@ export const Trainer = () => {
       <h2 className={styles.trainerHeader}>Тренер Мухаммад Абдуллоев</h2>
       <div className={styles.trainer}>
         <div className={styles.imgWrapper}>
-          <img src={ch1} alt="trainer" />
+          <img src={winner6} alt="trainer" />
         </div>
         <div className={styles.desc}>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto adipisci assumenda ratione laudantium beatae cupiditate, vitae voluptates iure quos possimus. Repellendus dolore labore error nostrum eveniet non fuga, provident qui. Repudiandae ipsam obcaecati cum saepe deleniti ab corporis consequatur voluptate quis sapiente accusantium adipisci officiis delectus quaerat, fugiat, earum architecto dolor accusamus? Obcaecati suscipit aperiam beatae architecto quos molestiae...</p>

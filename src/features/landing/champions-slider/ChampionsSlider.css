@@ -11,7 +11,6 @@
   padding: 0 var(--padding-sides) var(--padding-top-bottom) var(--padding-sides);
 }
 
-
 .slide {
   text-align: center;
   font-size: 16px;
@@ -23,6 +22,7 @@
   flex-direction: column !important;
   align-items: center !important;
   gap: 5px !important;
+  height: 370px;
 }
 
 .sliderHeader {
@@ -31,7 +31,9 @@
 }
 
 .slideImg {
-  width: 160px;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .slick-track {
@@ -46,6 +48,11 @@
   justify-content: center !important;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.competitionWrapper {
+  flex: 1 1 auto;
+  width: 250px;
 }
 
 @media (max-width: 1439px) {

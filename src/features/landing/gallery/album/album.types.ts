@@ -8,4 +8,11 @@ export type AlbumType = {
 export type PhotoType = {
   id: number
   path: string
+  albumId: number
+  horizontal?: boolean
+}
+
+export type SetPhotoType = {
+  albumId: number
+  photoId: number
 }
