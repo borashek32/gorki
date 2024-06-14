@@ -3,6 +3,7 @@
   display: flex;
   gap:  70px;
   align-items: flex-start;
+  justify-content: center;
   padding: 50px var(--padding-sides) var(--padding-top-bottom) var(--padding-sides);
 }
 
@@ -27,6 +28,26 @@
   font-size: 20px;
 }
 
+.social {
+  width: 300px;
+  display: flex;
+  gap: 20px;
+}
+
+.socialImgWrapper {
+  background-color: var(--secondary-color);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialImgWrapper img {
+  width: 26px;
+}
+
 @media (max-width: 1439px) {
   .trainer {
     padding: 50px;
@@ -34,7 +55,7 @@
     justify-content: center;
   }
 
-  .desc {
+  /* .desc {
     text-align: center;
-  }
+  } */
 }

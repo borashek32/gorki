@@ -26,11 +26,11 @@ export const ChampionsSlider = () => {
       {
         breakpoint: 1024,
         settings: {
-          // initialSlide: 5,
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          initialSlide: 0,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: false,
-          dots: true,
+          dots: false,
           translate: 0,
         }
       },

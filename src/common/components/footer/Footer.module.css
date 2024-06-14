@@ -57,26 +57,6 @@
   color: var(--text-primary-color);
 }
 
-.social {
-  width: 300px;
-  display: flex;
-  gap: 20px;
-}
-
-.imgWrapper {
-  background-color: var(--secondary-color);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.imgWrapper img {
-  width: 26px;
-}
-
 .mapWrapper p {
   color: var(--text-primary-color);
   width: 600px;

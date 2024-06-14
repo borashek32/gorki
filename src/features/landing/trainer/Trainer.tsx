@@ -1,5 +1,9 @@
 import styles from './Trainer.module.css'
 import winner6 from './../../../common/assets/img/winners/6.jpeg'
+import vk from './../../../common/assets/img/icons/vk.svg'
+import ig from './../../../common/assets/img/icons/ig.svg'
+import tiktok from './../../../common/assets/img/icons/tiktok.svg'
+import youtube from './../../../common/assets/img/icons/youtube.svg'
 
 export const Trainer = () => {
 
@@ -11,15 +15,21 @@ export const Trainer = () => {
           <img src={winner6} alt="trainer" />
         </div>
         <div className={styles.desc}>
-          <p>Мастер спорта международного класса</p>
-          <ul>
-            <li>
-              <h3>1 место</h3>
-              <p>Чемпионат центрального федерального округа по профессиональному боевому самбо</p>
-              <p>2024 г.</p>
-            </li>
-            
-          </ul>
+          <h3>Личные соц сети тренера</h3>
+          <div className={styles.social}>
+            <a href='https://vk.com/klubgorki' className={styles.socialImgWrapper} target='_blank'>
+              <img src={vk} alt="vkontakte" />
+            </a>
+            <a href='https://www.instagram.com/klub_gorki/' className={styles.socialImgWrapper} target='_blank'>
+              <img src={ig} alt="instagram" />
+            </a>
+            <a href='https://www.youtube.com/@klubgorki' className={styles.socialImgWrapper} target='_blank'>
+              <img src={youtube} alt="youtube" />
+            </a>
+            <a href='#' className={styles.socialImgWrapper} target='_blank'>
+              <img src={tiktok} alt="tiktok" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

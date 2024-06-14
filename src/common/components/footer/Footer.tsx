@@ -2,10 +2,6 @@ import styles from './Footer.module.css'
 import phone from './../../assets/img/icons/call.svg'
 import letter from './../../assets/img/icons/mail.svg'
 import address from './../../assets/img/icons/map.svg'
-import vk from './../../assets/img/icons/vk.svg'
-import ig from './../../assets/img/icons/ig.svg'
-import tiktok from './../../assets/img/icons/tiktok.svg'
-import youtube from './../../assets/img/icons/youtube.svg'
 import { Logo } from '../logo/Logo'
 import webDesign from './../../assets/img/logo.jpg'
 import { NavLink } from 'react-router-dom'
@@ -48,20 +44,6 @@ export const Footer = () => {
                 </a>
               </li>
             </ul>
-            <div className={styles.social}>
-              <a href='https://vk.com/klubgorki' className={styles.imgWrapper} target='_blank'>
-                <img src={vk} alt="vkontakte" />
-              </a>
-              <a href='https://www.instagram.com/klub_gorki/' className={styles.imgWrapper} target='_blank'>
-                <img src={ig} alt="instagram" />
-              </a>
-              <a href='https://www.youtube.com/@klubgorki' className={styles.imgWrapper} target='_blank'>
-                <img src={youtube} alt="youtube" />
-              </a>
-              <a href='#' className={styles.imgWrapper} target='_blank'>
-                <img src={tiktok} alt="tiktok" />
-              </a>
-            </div>
           </div>
         </div>
         <div className={styles.footer}>
