@@ -93,6 +93,10 @@ header {
   display: none;
 }
 
+.navlinks {
+  color: var(--text-secondary-hover-color) !important;
+}
+
 @media (max-width: 1439px) {
   .headerTopWrapper a span {
     display: none;
@@ -133,6 +137,10 @@ header {
 
   .headerTopWrapper {
     padding: 0 50px;
+  }
+
+  .navlinks {
+    color: var(--text-primary-color) !important;
   }
 }
 

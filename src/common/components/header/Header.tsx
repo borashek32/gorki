@@ -34,17 +34,17 @@ export const Header = () => {
         <nav className={active ? styles.nav : ''}>
           <ul className={styles.menu}>
             {location.pathname === '/blog' && 
-              <NavLink to={'/'} style={{color: 'black'}}>
+              <NavLink to={'/'} className={styles.navlinks} onClick={handleSetActive}>
                 Домой
               </NavLink>
             }
             {location.pathname.includes('/albums') && 
-              <NavLink to={'/'} style={{color: 'black'}}>
+              <NavLink to={'/'} className={styles.navlinks} onClick={handleSetActive}>
                 Домой
               </NavLink>
             }
             {location.pathname === '/address' && 
-              <NavLink to={'/'} style={{color: 'black'}}>
+              <NavLink to={'/'} className={styles.navlinks} onClick={handleSetActive}>
                 Домой
               </NavLink>
             }
@@ -128,10 +128,10 @@ export const Header = () => {
                     Тренер
                   </Link>
                 </li>
-                <NavLink to={'/blog'} style={{color: 'black'}}>
+                <NavLink to={'/blog'} className={styles.navlinks}>
                   Блог
                 </NavLink>
-                <NavLink to={'/address'} style={{color: 'black'}}>
+                <NavLink to={'/address'} className={styles.navlinks}>
                   Схема проезда
                 </NavLink>
               </>
