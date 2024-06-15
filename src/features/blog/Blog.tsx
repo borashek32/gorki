@@ -1,6 +1,7 @@
 import styles from './Blog.module.css'
 import women from './../../common/assets/img/footer.jpeg'
 import history from './../../common/assets/img/blog/history.jpeg'
+import { Link } from 'react-scroll'
 
 export const Blog = () => {
 
@@ -10,12 +11,28 @@ export const Blog = () => {
         <h5>Читайте в блоге:</h5>
         <ul>
           <li>
-            <a href="#womenCombatSambo">
+            <Link 
+              to="womenCombatSambo"
+              spy={true} 
+              smooth={true} 
+              offset={-150} 
+              duration={500}
+              className={styles.blogLink}
+            >
               <p>Женское боевое самбо. Вы серьезно??</p>
-            </a>
-            <a href="#historyCombatSambo">
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="historyCombatSambo"
+              spy={true} 
+              smooth={true} 
+              offset={-150} 
+              duration={500}
+              className={styles.blogLink}
+            >
               <p>История возникновения боевого самбо и его эффективность</p>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -78,6 +78,10 @@
   margin-top: 10px;
 }
 
+.blogLink {
+  cursor: pointer;
+}
+
 @media (max-width: 900px) {
   .postWrapper {
     width: 500px;
