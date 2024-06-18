@@ -44,7 +44,7 @@ import winner15 from './../assets/img/winners/15.jpeg'
 import winner16 from './../assets/img/winners/16.jpeg'
 import winner17 from './../assets/img/winners/17.jpeg'
 import winner18 from './../assets/img/winners/18.jpeg'
-import winner19 from './../assets/img/winners/19.jpeg'
+import winner19 from './../assets/img/winners/19.jpg'
 
 export const data = {
   galleryAlbums: [
@@ -272,7 +272,7 @@ export const data = {
   champions: [ 
     {
       id: 1,
-      name: 'Мехтожов Навруз',
+      name: 'Гиёев Уммар',
       photoPath: winner7,
       competitions: [
         {
@@ -316,7 +316,7 @@ export const data = {
     },
     {
       id: 5,
-      name: 'Уммар Гиеев',
+      name: 'Гиёев Уммар',
       photoPath: winner1,
       competitions: [
         {
@@ -327,21 +327,13 @@ export const data = {
     },
     {
       id: 6,
-      name: 'Фаридун Гиеев',
+      name: 'Гиёев Уммар',
       photoPath: winner2,
       competitions: [
         {
           id: 1,
           title: 'Чемпионат России - 1 место',
         },
-        {
-          id: 2,
-          title: 'Чемпионат Калужской обл. - 1 место',
-        },
-        {
-          id: 3,
-          title: 'Чемпионат Московской обл. - 1 место',
-        }
       ],
     },
     {
@@ -374,6 +366,17 @@ export const data = {
         {
           id: 1,
           title: 'Первенство России - 1 место'
+        },
+      ],
+    },
+    {
+      id: 10,
+      name: 'Гиёев Фаридун',
+      photoPath: winner19,
+      competitions: [
+        {
+          id: 1,
+          title: 'Чемпионат Калужской обл. - 1 место'
         },
       ],
     },

@@ -4,6 +4,7 @@ import vk from './../../../common/assets/img/icons/vk.svg'
 import ig from './../../../common/assets/img/icons/ig.svg'
 import tiktok from './../../../common/assets/img/icons/tiktok.svg'
 import youtube from './../../../common/assets/img/icons/youtube.svg'
+import rutube from './../../../common/assets/img/icons/rutube.svg'
 
 export const Trainer = () => {
 
@@ -26,8 +27,11 @@ export const Trainer = () => {
             <a href='https://www.youtube.com/@klubgorki' className={styles.socialImgWrapper} target='_blank'>
               <img src={youtube} alt="youtube" />
             </a>
-            <a href='#' className={styles.socialImgWrapper} target='_blank'>
+            <a href='https://www.tiktok.com/@klubgorki1994' className={styles.socialImgWrapper} target='_blank'>
               <img src={tiktok} alt="tiktok" />
+            </a>
+            <a href='#' className={styles.socialImgWrapper} target='_blank'>
+              <img src={rutube} alt="rutube" />
             </a>
           </div>
         </div>
