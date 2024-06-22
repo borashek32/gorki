@@ -1,5 +1,9 @@
 import styles from './Blog.module.css'
-import women from './../../common/assets/img/footer.jpeg'
+import stylesGrid from './ImgGrid.module.css'
+import womenSambo1 from './../../common/assets/img/blog/women-sambo-1.png'
+import womenSambo2 from './../../common/assets/img/blog/women-sambo-2.png'
+import womenSambo3 from './../../common/assets/img/blog/women-sambo-3.png'
+import womenSambo4 from './../../common/assets/img/blog/women-sambo-4.png'
 import history from './../../common/assets/img/blog/history.jpeg'
 import { Link } from 'react-scroll'
 
@@ -37,12 +41,25 @@ export const Blog = () => {
         </ul>
       </div>
       <article className={styles.postWrapper} id='womenCombatSambo'>
-        <div className={styles.imgWrapper}>
+        <div className={styles.headerWrapper}>
           <div className={styles.postHeader}>
             <h6>Женское боевое самбо. Вы серьезно??</h6>
             <p>11.06.2024</p>
           </div>
-          <img src={women} alt="women combat sambo" />
+          <div className={stylesGrid.imgsWrapper}>
+            <div className={stylesGrid.imgGridWrapper1}>
+              <img src={womenSambo1} alt="women combat sambo" />
+            </div>
+            <div className={stylesGrid.imgGridWrapper2}>
+              <img src={womenSambo2} alt="women combat sambo" />
+            </div>
+            <div className={stylesGrid.imgGridWrapper3}>
+              <img src={womenSambo3} alt="women combat sambo" />
+            </div>
+            <div className={stylesGrid.imgGridWrapper4}>
+              <img src={womenSambo4} alt="women combat sambo" />
+            </div>
+          </div>
         </div>
         <p className={styles.listHeader}>Тренировки самбо для женщин обладают множеством преимуществ:</p>
         <ul className={styles.listAdvantages}>
@@ -82,7 +99,7 @@ export const Blog = () => {
         </ul>
       </article>
       <article className={styles.postWrapper} id='historyCombatSambo'>
-        <div className={styles.imgWrapper}>
+        <div className={styles.headerWrapper}>
           <div className={styles.postHeader}>
             <h6>История возникновения боевого самбо и его эффективность</h6>
             <p>15.06.2024</p>

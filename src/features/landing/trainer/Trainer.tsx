@@ -30,9 +30,9 @@ export const Trainer = () => {
             <a href='https://www.tiktok.com/@klubgorki1994' className={styles.socialImgWrapper} target='_blank'>
               <img src={tiktok} alt="tiktok" />
             </a>
-            <a href='#' className={styles.socialImgWrapper} target='_blank'>
+            {/* <a href='#' className={styles.socialImgWrapper} target='_blank'>
               <img src={rutube} alt="rutube" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
