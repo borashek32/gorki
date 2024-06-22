@@ -57,6 +57,7 @@ import winner16 from './../assets/img/winners/16.jpeg'
 import winner17 from './../assets/img/winners/17.jpeg'
 import winner18 from './../assets/img/winners/18.jpeg'
 import winner19 from './../assets/img/winners/19.jpg'
+import winner20 from './../assets/img/winners/20.jpeg'
 
 export const data = {
   galleryAlbums: [
@@ -451,6 +452,17 @@ export const data = {
         {
           id: 1,
           title: 'Чемпионат Калужской обл. - 1 место'
+        },
+      ],
+    },
+    {
+      id: 11,
+      name: 'Теванян Арам',
+      photoPath: winner20,
+      competitions: [
+        {
+          id: 1,
+          title: 'Закрытый Новогодний турнир по дзюдо в клубе "Феномен" - 1 место'
         },
       ],
     },

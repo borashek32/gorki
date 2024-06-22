@@ -1,6 +1,6 @@
 import styles from './Map.module.css'
-import mapBig from './../../common/assets/img/map-big.jpg'
-import mapSmall from './../../common/assets/img/map-small.jpg'
+import mapBig from './../../common/assets/img/map/map-big.png'
+import mapSmall from './../../common/assets/img/map/map-small.png'
 import { IframeMap } from '../../common/components/iframe-map/IframeMap'
 
 export const Map = () => {

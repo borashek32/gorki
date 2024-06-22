@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 26px;
-  padding: 50px;
+  padding-top: 50px;
 }
 
 .promoHeader a {
@@ -36,7 +36,8 @@
 .promoHeader h1 {
   font-size: 50px;
   line-height: 60px;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: rgb(33, 3, 3);
   font-weight: 900;
 }
 
@@ -47,19 +48,19 @@
 .promoHeader p {
   font-size: 32px;
   line-height: 32px;
-  color: var(--primary-color)
+  color: rgb(33, 3, 3);
 }
 
 .promoImgWrapper {
   position: relative;
   height: 480px;
-  width: 599px;
+  width: 1000px;
 }
 
 .promoImgWrapper img {
   background-size: center;
   height: 480px;
-  width: 600px;
+  width: 1000px;
   border: 0;
 }
 
@@ -69,9 +70,25 @@
   right: 0px;
   top: 0px;
   height: 480px;
-  width: 600px;
+  width: 1000px;
   background: linear-gradient(to left, transparent, var(--secondary-color));
   pointer-events: none;
+}
+
+@media (max-width: 1919px) {
+  .promoImgWrapper,
+  .promoImgWrapper img,
+  .promoImgWrapper::after {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1725px) {
+  .promoImgWrapper,
+  .promoImgWrapper img,
+  .promoImgWrapper::after {
+    width: 700px;
+  }
 }
 
 .promoWrapper::after {
