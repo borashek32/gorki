@@ -224,13 +224,11 @@ export const data = {
           id: 30,
           path: photo30,
           albumId: 1,
-          horizontal: true,
         },
         {
           id: 31,
           path: photo31,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 32,
@@ -248,49 +246,41 @@ export const data = {
           id: 34,
           path: photo34,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 35,
           path: photo35,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 36,
           path: photo36,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 37,
           path: photo37,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 38,
           path: photo38,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 39,
           path: photo39,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 40,
           path: photo40,
           albumId: 1,
-          horizontal: true,
         }, 
         {
           id: 41,
           path: photo41,
           albumId: 1,
-          horizontal: true,
         },  
       ]
     },
