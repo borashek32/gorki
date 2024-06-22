@@ -26,6 +26,18 @@ import photo26 from './../assets/img/gallery/workout/26.jpeg'
 import photo27 from './../assets/img/gallery/workout/27.jpeg'
 import photo28 from './../assets/img/gallery/workout/28.jpeg'
 import photo29 from './../assets/img/gallery/workout/29.jpg'
+import photo30 from './../assets/img/gallery/workout/30.jpeg'
+import photo31 from './../assets/img/gallery/workout/31.jpeg'
+import photo32 from './../assets/img/gallery/workout/32.jpeg'
+import photo33 from './../assets/img/gallery/workout/33.jpeg'
+import photo34 from './../assets/img/gallery/workout/34.jpeg'
+import photo35 from './../assets/img/gallery/workout/35.jpeg'
+import photo36 from './../assets/img/gallery/workout/36.jpeg'
+import photo37 from './../assets/img/gallery/workout/37.jpeg'
+import photo38 from './../assets/img/gallery/workout/38.jpeg'
+import photo39 from './../assets/img/gallery/workout/39.jpeg'
+import photo40 from './../assets/img/gallery/workout/40.jpeg'
+import photo41 from './../assets/img/gallery/workout/41.jpeg'
 
 import winner1 from './../assets/img/winners/1.jpg'
 import winner2 from './../assets/img/winners/2.jpg'
@@ -208,6 +220,78 @@ export const data = {
           albumId: 1,
           horizontal: true,
         }, 
+        {
+          id: 30,
+          path: photo30,
+          albumId: 1,
+          horizontal: true,
+        },
+        {
+          id: 31,
+          path: photo31,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 32,
+          path: photo32,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 33,
+          path: photo33,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 34,
+          path: photo34,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 35,
+          path: photo35,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 36,
+          path: photo36,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 37,
+          path: photo37,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 38,
+          path: photo38,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 39,
+          path: photo39,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 40,
+          path: photo40,
+          albumId: 1,
+          horizontal: true,
+        }, 
+        {
+          id: 41,
+          path: photo41,
+          albumId: 1,
+          horizontal: true,
+        },  
       ]
     },
     {
