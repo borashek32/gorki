@@ -4,7 +4,6 @@ import vk from './../../../common/assets/img/icons/vk.svg'
 import ig from './../../../common/assets/img/icons/ig.svg'
 import tiktok from './../../../common/assets/img/icons/tiktok.svg'
 import youtube from './../../../common/assets/img/icons/youtube.svg'
-import rutube from './../../../common/assets/img/icons/rutube.svg'
 
 export const Trainer = () => {
 
