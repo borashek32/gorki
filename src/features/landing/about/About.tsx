@@ -14,10 +14,10 @@ export const About = () => {
             controls
           ></video> */}
           <div className={styles.videoWrapper}>
-            <iframe src="https://www.youtube.com/embed/rEAMtHmSl5o?si=UXe8LDCrl-aZPPPg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/h_BF38vznZw?si=ZsreU3IZYU57BXTA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
           </div>
           <div className={styles.mediaWrapperDesc}>
-            <p>Клуб "Горки" был основан в 2020 году мастером спорта международного класса Мухаммадом Абдуллоевым. В настоящее время клуб продлжает развиваться, недавно спортсмены переехали в зал, который в два раза больше первого. В скором времени планируется его отремонтировать.</p>
+            <p>Детский клуб был основан в 2020 году. В настоящее время клуб продлжает развиваться, недавно спортсмены переехали в зал, который в два раза больше первого. В скором времени планируется его отремонтировать.</p>
             <p>Многих отпугивает слово "боевое" в названии единоборства. Но прежде всего, основной упор при подготовке спортсменов приходится на общую физическую подготовку. Ей уделяется час времени на разминке и немного в конце тренировки.</p>
             <p><span>Боевое самбо - это дисциплина, физическое развитие, а уже потом борьба.</span></p>
           </div>

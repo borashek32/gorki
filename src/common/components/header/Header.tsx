@@ -22,7 +22,7 @@ export const Header = () => {
   return (
     <header>
       <div className={styles.headerTopWrapper}>
-        <a href="tel:+79855727516"><span>клуб "горки":</span> +7 (985) 572-75-16</a>
+        <a href="tel:+79169174630"><span>детский клуб:</span> +7 (916) 917-46-30</a>
         <SwitchButton 
           onClick={changeTheme} 
           value={theme}

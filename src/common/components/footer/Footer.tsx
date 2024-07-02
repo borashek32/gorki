@@ -14,7 +14,7 @@ export const Footer = () => {
       <div className={styles.footerWrapper}>
         <div className={styles.footerContainer}>
           <div className={styles.mapWrapper}>
-            <iframe className={styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9766.904825708481!2d36.96060204082207!3d55.21082034392453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aacb1d26fc219%3A0x57abaa0fec868038!2z0JPQvtGA0LrQuA!5e0!3m2!1sru!2sru!4v1717941735819!5m2!1sru!2sru" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11901600.524008999!2d60.07529536544234!3d60.49181291571263!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1719909997063!5m2!1sru!2sru"></iframe>
             <NavLink to='/address'>
               <Button
                 type='button'
@@ -29,12 +29,12 @@ export const Footer = () => {
             <ul className={styles.contactsList}>
               <li className={styles.contactsItem}>
                 <img src={address} alt="address" />
-                <p>г. Москва, 62 км от МКАД по А-130, д. Каменка, 108835</p>
+                <p>г. Москва, ул. Удальцова, 101к3, кв.23</p>
               </li>
               <li className={styles.contactsItem}>
                 <img src={phone} alt="phone" />
-                <a href="tel:+79855727516">
-                  <p>+7 (985) 572-75-16</p>
+                <a href="tel:+79169174630">
+                  <p>+7 (916) 917-46-30</p>
                 </a>
               </li>
               <li className={styles.contactsItem}>
