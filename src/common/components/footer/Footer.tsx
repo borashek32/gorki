@@ -6,6 +6,7 @@ import { Logo } from '../logo/Logo'
 import webDesign from './../../assets/img/logo.jpg'
 import { NavLink } from 'react-router-dom'
 import { Button } from '../button/Button'
+import { IframeMap } from '../iframe-map/IframeMap'
 
 export const Footer = () => {
 
@@ -14,7 +15,7 @@ export const Footer = () => {
       <div className={styles.footerWrapper}>
         <div className={styles.footerContainer}>
           <div className={styles.mapWrapper}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11901600.524008999!2d60.07529536544234!3d60.49181291571263!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1719909997063!5m2!1sru!2sru"></iframe>
+            <IframeMap />
             <NavLink to='/address'>
               <Button
                 type='button'

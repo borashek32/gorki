@@ -54,3 +54,15 @@ p {
     padding: 50px;
   }
 }
+
+iframe {
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 720px) {
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
